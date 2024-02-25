@@ -1,11 +1,14 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
+import Person from './components/Person/Person';
+import Counter from './components/Counter/Counter';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Open up App.tsx to start working on your app!</Text>
-      <StatusBar style="auto" />
+     <Person name='Ronald' />
+
+     <Counter />
     </View>
   );
 }
